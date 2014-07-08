@@ -9,7 +9,7 @@
 
 デモは、 jquery.background-fit.js と background css の比較です。
 
-[デモ](examples/index.html)
+[デモ](http://thingsym.github.io/jquery.background-fit.js/)
 
 ##つかいかた
 
@@ -25,7 +25,7 @@ jQuery (1.11 以上または >= 2.x  以上) をページに読み込みます�
 
 jquery.com から jQuery 本体をダウンロード。または CDN から配信している jQuery 本体を設定します。
 
-設定方法は「[Download jQuery | jQuery](http://jquery.com/download/)」から。
+設定方法は「[Download jQuery](http://jquery.com/download/)」から。
 
 ###2. jquery.background-fit.js の設定
 
@@ -33,34 +33,32 @@ jquery.background-fit.js をページに読み込みます。
 
 jquery.background-fit.min.js をダウンロードして、HTMLにスクリプトタグを以下のように設定します。
 
-<pre>
-&ltscript src="http://DOMAIN/PATH/TO/jquery.background-fit.min.js"&gt&lt/script&gt
-</pre>
+`<script src="http://DOMAIN/PATH/TO/jquery.background-fit.min.js"></script>`
 
 ###3. HTMLと背景画像、CSSを用意
 
 背景画像を表示するHTMLを用意します。id 属性または class 属性を設定すること。属性名はお好みで。
 
-<pre>
-&ltdiv id="bg"&gtjquery.background-fit.js&lt/div&gt
-</pre>
+```html
+<div id="bg">jquery.background-fit.js</div>
+```
 
 CSSで背景画像を設定します。
 
-<pre>
-&ltstyle&gt
+```css
+<style>
 #bg {
 	background: url(http://DOMAIN/PATH/TO/sample.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
-&lt/style&gt
-</pre>
+</style>
+```
 
 幅 (width) を設定すると、表示サイズが調整された表示になります。
 
-<pre>
-&ltstyle&gt
+```css
+<style>
 #bg {
 	background: url(http://DOMAIN/PATH/TO/sample.jpg);
 	background-size: 100%;
@@ -68,20 +66,20 @@ CSSで背景画像を設定します。
     width: 300px;
     height: 150px;
 }
-&lt/style&gt
-</pre>
+</style>
+```
 
 ###4. Background Fit を適用
 
 Background Fit を適用する JavaScript を記述します。HTML に設定した id 属性または class 属性を セレクタに指定して Background Fit を適用します。
 
-<pre>
-&ltscript&gt
+```javascript
+<script>
 $(function() {
   $("#bg").bg_fit();
 });
-&lt/script&gt
-</pre>
+</script>
+```
 
 ###5. 動作確認
 

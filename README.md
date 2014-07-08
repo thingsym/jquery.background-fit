@@ -9,6 +9,7 @@ Background Fit is a jQuery plugin that appear in sizes that fit to the aspect ra
 
 Demo is Comparison of jquery.background-fit.js and the background css.
 
+[Demo](http://thingsym.github.io/jquery.background-fit.js/)
 
 ##Usage
 
@@ -24,7 +25,7 @@ jQuery (>= 1.11 Or >= 2.x) loaded in your page.
 
 Download the jQuery from jquery.com. Or set the jQuery that is delivered from the CDN.
 
-[Download jQuery | jQuery](http://jquery.com/download/)
+[Download jQuery](http://jquery.com/download/)
 
 ###2. Setting the jquery.background-fit.js
 
@@ -33,35 +34,33 @@ jquery.background-fit.js loaded in your page.
 
 Download the jquery.background-fit.min.js. Set the script tag to HTML, like this:
 
-<pre>
-&ltscript src="http://DOMAIN/PATH/TO/jquery.background-fit.min.js"&gt&lt/script&gt
-</pre>
+`<script src="http://DOMAIN/PATH/TO/jquery.background-fit.min.js"></script>`
 
 ###3. Prepare for HTML and background image, CSS
 
 Provide the HTML to display the background image. By setting the class attribute or id attribute. Attribute name to your liking.
 
-<pre>
-&ltdiv id="bg"&gtjquery.background-fit.js&lt/div&gt
-</pre>
+```html
+<div id="bg">jquery.background-fit.js</div>
+```
 
 
 Set the background image on the CSS.
 
-<pre>
-&ltstyle&gt
+```css
+<style>
 #bg {
 	background: url(http://DOMAIN/PATH/TO/sample.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
-&lt/style&gt
-</pre>
+</style>
+```
 
 If set the width, it will display the display size has been adjusted.
 
-<pre>
-&ltstyle&gt
+```css
+<style>
 #bg {
 	background: url(http://DOMAIN/PATH/TO/sample.jpg);
 	background-size: 100%;
@@ -69,21 +68,21 @@ If set the width, it will display the display size has been adjusted.
     width: 300px;
     height: 150px;
 }
-&lt/style&gt
-</pre>
+</style>
+```
 
 ###4. Run the script
 
 Write JavaScript to run the Background Fit. 
 Apply a Background Fit by specifying the selector to the class attribute or an id attribute set to HTML. Run the script like so:
 
-<pre>
-&ltscript&gt
+```javascript
+<script>
 $(function() {
   $("#bg").bg_fit();
 });
-&lt/script&gt
-</pre>
+</script>
+```
 
 ###5. Operation checking
 
@@ -141,4 +140,3 @@ http://www.opensource.org/licenses/mit-license.php
 ###GNU General Public License v2.0 (GPLv2)
 
 http://www.gnu.org/licenses/gpl.html
-
