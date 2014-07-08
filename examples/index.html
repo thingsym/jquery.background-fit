@@ -11,6 +11,7 @@ body {
 	background: url(./a0001_011562_m.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
+	height: 300px;
 }
 #bg1_fixed {
 	background: url(./a0001_011562_m.jpg);
@@ -22,40 +23,48 @@ body {
 	background: url(./a0001_011562_m.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
+	height: 300px;
 }
 
 .bg3 {
 	background: url(./a0001_011562_m.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 300px;
 }
 .bg4 {
 	background: url(./a0001_011562_m.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
+	height: 300px;
 }
 .bg5 {
 	background: url(./a0001_011562_m.jpg);
 	background-size: auto;
 	background-repeat: no-repeat;
+	height: 300px;
 }
 .bg6 {
 	background: url(./a0001_011562_m.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
+	height: 300px;
 }
 .bg7 {
 	background: url(./a0001_011562_m.jpg);
 	background-size: auto 100%;
 	background-repeat: no-repeat;
+	height: 300px;
 }
 .bg8 {
 	background: url(./a0001_011562_m.jpg);
 	background-repeat: no-repeat;
+	height: 300px;
 }
 .none {
 	background-size: auto 100%;
 	background-repeat: no-repeat;
+	height: 300px;
 }
 
 #bg1, #bg1_fixed, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .none {
@@ -63,8 +72,8 @@ body {
 }
 
 .sizefix {
-    width: 300px;
-    height: 150px;
+	width: 300px;
+	height: 300px;
 }
 </style>
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -82,11 +91,9 @@ $(function() {
 
 <h1>jquery.background-fit.js Demo</h1>
 
-<h2>Fluid Size</h2>
+<h2>Fluid Size (height fixed)</h2>
 
 <div id="bg1"><h3>jquery.background-fit.js</h3></div>
-
-<div class="none"><h3>No background image</h3></div>
 
 <div class="bg2"><h3>background-size: 100%;</h3></div>
 
@@ -102,11 +109,11 @@ $(function() {
 
 <div class="bg8"><h3>background-size: none;</h3></div>
 
+<div class="none"><h3>No background image</h3></div>
+
 <h2>Fixed Size</h2>
 
 <div id="bg1_fixed" class="sizefix"><h3>jquery.background-fit.js</h3></div>
-
-<div class="none sizefix"><h3>No background image</h3></div>
 
 <div class="bg2 sizefix"><h3>background-size: 100%;</h3></div>
 
@@ -121,6 +128,8 @@ $(function() {
 <div class="bg7 sizefix"><h3>background-size: auto 100%;</h3></div>
 
 <div class="bg8 sizefix"><h3>background-size: none;</h3></div>
+
+<div class="none sizefix"><h3>No background image</h3></div>
 
 </body>
 </html>
