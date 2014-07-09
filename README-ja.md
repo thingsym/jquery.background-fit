@@ -9,7 +9,7 @@
 
 デモは、 jquery.background-fit.js と background css の比較です。
 
-[デモ](http://thingsym.github.io/jquery.background-fit.js/)
+[デモ](http://project.thingslabo.com/jquery.background-fit/examples/)
 
 ##つかいかた
 
@@ -33,7 +33,9 @@ jquery.background-fit.js をページに読み込みます。
 
 jquery.background-fit.min.js をダウンロードして、HTMLにスクリプトタグを以下のように設定します。
 
-`<script src="http://DOMAIN/PATH/TO/jquery.background-fit.min.js"></script>`
+```html
+<script src="http://DOMAIN/PATH/TO/jquery.background-fit.min.js"></script>
+```
 
 ###3. HTMLと背景画像、CSSを用意
 
@@ -64,7 +66,7 @@ CSSで背景画像を設定します。
 	background-size: 100%;
 	background-repeat: no-repeat;
     width: 300px;
-    height: 150px;
+    height: 300px;
 }
 </style>
 ```

@@ -9,7 +9,7 @@ Background Fit is a jQuery plugin that appear in sizes that fit to the aspect ra
 
 Demo is Comparison of jquery.background-fit.js and the background css.
 
-[Demo](http://thingsym.github.io/jquery.background-fit.js/)
+[Demo](http://project.thingslabo.com/jquery.background-fit/examples/)
 
 ##Usage
 
@@ -34,7 +34,9 @@ jquery.background-fit.js loaded in your page.
 
 Download the jquery.background-fit.min.js. Set the script tag to HTML, like this:
 
-`<script src="http://DOMAIN/PATH/TO/jquery.background-fit.min.js"></script>`
+```html
+<script src="http://DOMAIN/PATH/TO/jquery.background-fit.min.js"></script>
+```
 
 ###3. Prepare for HTML and background image, CSS
 
@@ -66,7 +68,7 @@ If set the width, it will display the display size has been adjusted.
 	background-size: 100%;
 	background-repeat: no-repeat;
     width: 300px;
-    height: 150px;
+    height: 300px;
 }
 </style>
 ```
