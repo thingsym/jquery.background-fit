@@ -95,6 +95,8 @@ jQuery 1.11+ Or jQuery 2.x+ [http://jquery.com/download/](http://jquery.com/down
 
 ##履歴
 
+* Version 0.0.4 - 2014-07-29
+	* refactoring
 * Version 0.0.3 - 2014-06-12
 	* fix in case of multiple setting
 * Version 0.0.2 - 2014-05-14
