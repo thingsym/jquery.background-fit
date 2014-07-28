@@ -15,9 +15,10 @@ module.exports = function(grunt) {
         banner: '/*\n' +
           ' * <%= pkg.title %>\n' +
           ' * Version <%= pkg.version %>\n' +
-          ' * Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
-          ' * URI <%= pkg.URI %>\n' +
           ' * Update: <%= grunt.template.today("yyyy-mm-dd h:MM:ss") %>\n' +
+          ' * Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
+          ' * URI: <%= pkg.url %>\n' +
+          ' * Repository: <%= pkg.repository.url %>\n' +
           ' * <%= pkg.license %>\n' +
           ' * <%= _.pluck(pkg.licenses, "url").join("\\n * ") %>\n' +
           ' * Required: <%= pkg.required %>\n' +

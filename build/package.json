@@ -1,9 +1,13 @@
 {
   "name": "jquery.background-fit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "title": "jQuery Plugin Background Fit",
   "description": "",
-  "URI": "http://www.thingslabo.com",
+  "url": "http://blog.thingslabo.com/archives/000396.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thingsym/jquery.background-fit"
+  },
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +21,7 @@
     },
     {
       "type": "GPLv2",
-      "url": "http://www.gnu.org/licenses/gpl.html"
+      "url": "http://www.gnu.org/licenses/gpl-2.0.html"
     }
   ],
   "required": "jQuery 1.11+ Or jQuery 2.x+ (http://jquery.com/download/)",
