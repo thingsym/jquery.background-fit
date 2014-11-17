@@ -1,0 +1,30 @@
+{
+  "name": "jquery.background-fit",
+  "main": "jquery.background-fit.js",
+  "version": "0.0.5",
+  "homepage": "https://github.com/thingsym/jquery.background-fit",
+  "authors": [
+    "thingsym"
+  ],
+  "description": "Background Fit is a jQuery plugin that appear in sizes that fit to the aspect ratio of the background image.",
+  "keywords": [
+    "jquery",
+    "jquery plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "examples",
+    "README.md",
+    "README-ja.md"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.11"
+  }
+}
