@@ -1,6 +1,6 @@
 /*
  * jQuery Plugin Background Fit
- * Version 0.0.4
+ * Version 0.0.5
  * Update: 2014-07-29 12:51:16
  * Copyright 2014 thingsym
  * URI: http://blog.thingslabo.com/archives/000396.html

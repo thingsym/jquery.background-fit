@@ -95,6 +95,8 @@ jQuery 1.11+ Or jQuery 2.x+ [http://jquery.com/download/](http://jquery.com/down
 
 ##履歴
 
+* Version 0.0.5 - 2014-11-17
+	* add bower.js
 * Version 0.0.4 - 2014-07-29
 	* refactoring
 * Version 0.0.3 - 2014-06-12

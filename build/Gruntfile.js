@@ -15,7 +15,7 @@ module.exports = function(grunt) {
         banner: '/*\n' +
           ' * <%= pkg.title %>\n' +
           ' * Version <%= pkg.version %>\n' +
-          ' * Update: <%= grunt.template.today("yyyy-mm-dd h:MM:ss") %>\n' +
+          ' * Update: <%= grunt.template.today("yyyy-mm-dd HH:MM:ss") %>\n' +
           ' * Copyright <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
           ' * URI: <%= pkg.url %>\n' +
           ' * Repository: <%= pkg.repository.url %>\n' +
