@@ -93,7 +93,19 @@ $(function() {
 
 jQuery 1.11+ Or jQuery 2.x+ [http://jquery.com/download/](http://jquery.com/download/)
 
-##履歴
+## Contribution
+
+### Patches and Bug Fixes
+
+Small patches and bug reports can be submitted a issue tracker in Github. Forking on Github is another good way. You can send a pull request.
+
+1. Fork [jQuery Plugin Background Fit](https://github.com/thingsym/jquery.background-fit) from GitHub repository
+2. Create a feature branch: git checkout -b my-new-feature
+3. Commit your changes: git commit -am 'Add some feature'
+4. Push to the branch: git push origin my-new-feature
+5. Create new Pull Request
+
+## Changelog
 
 * Version 0.0.5 - 2014-11-17
 	* add bower.js
@@ -106,27 +118,16 @@ jQuery 1.11+ Or jQuery 2.x+ [http://jquery.com/download/](http://jquery.com/down
 * Version 0.0.1 - 2013-02-13
 	* Initial release.
 
-##デモサンプル画像提供
+## デモサンプル画像提供
 
 [写真素材 足成 - Ashinari Photo Material](http://www.ashinari.com)
 
-##ライセンス
+## License
 
-Dual licensed under the MIT and GNU General Public License v2.0 (GPLv2) licenses.
+Dual licensed under the MIT and [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html) licenses.
+
+## Author
+
+[thingsym](https://github.com/thingsym)
 
 Copyright (c) 2013-2014 by thingsym
-
-###The MIT License (MIT)
-
-以下に定める条件に従い、本ソフトウェアおよび関連文書のファイル（以下「ソフトウェア」）の複製を取得するすべての人に対し、ソフトウェアを無制限に扱うことを無償で許可します。これには、ソフトウェアの複製を使用、複写、変更、結合、掲載、頒布、サブライセンス、および/または販売する権利、およびソフトウェアを提供する相手に同じことを許可する権利も無制限に含まれます。
-
-上記の著作権表示および本許諾表示を、ソフトウェアのすべての複製または重要な部分に記載するものとします。
-
-ソフトウェアは「現状のまま」で、明示であるか暗黙であるかを問わず、何らの保証もなく提供されます。ここでいう保証とは、商品性、特定の目的への適合性、および権利非侵害についての保証も含みますが、それに限定されるものではありません。 作者または著作権者は、契約行為、不法行為、またはそれ以外であろうと、ソフトウェアに起因または関連し、あるいはソフトウェアの使用またはその他の扱いによって生じる一切の請求、損害、その他の義務について何らの責任も負わないものとします。
-
-http://www.opensource.org/licenses/mit-license.php
-
-###GNU General Public License v2.0 (GPLv2)
-
-http://www.gnu.org/licenses/gpl.html
-

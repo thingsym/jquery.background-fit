@@ -98,7 +98,19 @@ Have fun!
 jQuery 1.11+ Or jQuery 2.x+
  [http://jquery.com/download/](http://jquery.com/download/)
 
-##Changelog
+## Contribution
+
+### Patches and Bug Fixes
+
+Small patches and bug reports can be submitted a issue tracker in Github. Forking on Github is another good way. You can send a pull request.
+
+1. Fork [jQuery Plugin Background Fit](https://github.com/thingsym/jquery.background-fit) from GitHub repository
+2. Create a feature branch: git checkout -b my-new-feature
+3. Commit your changes: git commit -am 'Add some feature'
+4. Push to the branch: git push origin my-new-feature
+5. Create new Pull Request
+
+## Changelog
 
 * Version 0.0.5 - 2014-11-17
 	* add bower.js
@@ -111,38 +123,16 @@ jQuery 1.11+ Or jQuery 2.x+
 * Version 0.0.1 - 2013-02-13
 	* Initial release.
 
-##Sample image Provided by
+## Sample image Provided by
 
 [Ashinari Photo Material](http://www.ashinari.com)
 
-##License
+## License
 
-Dual licensed under the MIT and GNU General Public License v2.0 (GPLv2) licenses.
+Dual licensed under the MIT and [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html) licenses.
+
+## Author
+
+[thingsym](https://github.com/thingsym)
 
 Copyright (c) 2013-2014 by thingsym
-
-###The MIT License (MIT)
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-http://www.opensource.org/licenses/mit-license.php
-
-###GNU General Public License v2.0 (GPLv2)
-
-http://www.gnu.org/licenses/gpl.html
