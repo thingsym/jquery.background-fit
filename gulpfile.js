@@ -1,9 +1,9 @@
 var gulp = require('gulp');
-
 var $ = require('gulp-load-plugins')();
+
 var pkg = require('./package.json')
 
-gulp.task('default', function() {
+function js_minify() {
 
   var date = new Date();
   var yyyy = date.getFullYear();
@@ -26,17 +26,24 @@ gulp.task('default', function() {
     '*/',
     ''].join('\n');
 
-  return gulp.src(['../*.js', '!../*.min.js'])
+  return gulp.src(['*.js', '!*.min.js', '!gulpfile.js'])
     .pipe($.header(header, { pkg : pkg }))
     .pipe($.jshint())
     .pipe($.jshint.reporter('jshint-stylish'))
-    .pipe($.uglify({preserveComments: 'some'}))
-    .pipe($.rename({
-        suffix: '.min',
+    .pipe($.uglify({ 
+      output:{
+        comments: /^!/
+      }
     }))
-    .pipe(gulp.dest('../'))
-});
+    .pipe($.rename({
+        suffix: '.min'
+    }))
+    .pipe(gulp.dest('./'))
+};
 
-gulp.task('watch', function() {
-  gulp.watch([ '../*.js', '!../*.min.js' ], ['default']);
-});
+function watch_files(done) {
+  gulp.watch([ '*.js', '!*.min.js', '!gulpfile.js' ], { usePolling: true }).on('change', gulp.series(js_minify));
+};
+
+exports.watch = gulp.series(watch_files);
+exports.default = gulp.series(js_minify);
