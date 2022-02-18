@@ -9,9 +9,6 @@
     "url": "https://github.com/thingsym/jquery.background-fit"
   },
   "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "thingsym",
   "license": "Dual licensed under the MIT and GPLv2 licenses.",
   "licenses": [
@@ -25,16 +22,26 @@
     }
   ],
   "dependencies": {
-    "jquery": ">= 1.11"
+    "jquery": ">=3.6"
   },
   "devDependencies": {
-    "gulp": "~3.8.11",
-    "gulp-header": "^1.2.2",
-    "gulp-jshint": "~1.9.2",
-    "gulp-load-plugins": "^0.10.0",
-    "gulp-rename": "~1.2.0",
-    "gulp-uglify": "~1.1.0",
-    "gulp-watch": "~4.1.1",
-    "jshint-stylish": "^2.0.0"
+    "gulp": "~4.0.2",
+    "gulp-header": "^2.0.9",
+    "gulp-jshint": "~2.1.0",
+    "gulp-load-plugins": "^2.0.7",
+    "gulp-rename": "~2.0.0",
+    "gulp-uglify": "~3.0.2",
+    "gulp-watch": "~5.0.1",
+    "jshint": "^2.13.4",
+    "jshint-stylish": "^2.2.1",
+    "npm-check-updates": "^12.3.1"
+  },
+  "scripts": {
+    "default": "gulp --tasks",
+    "gulp": "gulp",
+    "ncu": "ncu",
+    "test": "npm run lint",
+    "lint": "gulp lint",
+    "serve": "gulp serve"
   }
 }
