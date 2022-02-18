@@ -1,17 +1,17 @@
-#jQuery Plugin Background Fit
+# jQuery Plugin Background Fit
 
 「Background Fit」は、HTMLタグに設定した背景画像の縦横比率にぴったり合ったサイズで表示する jQuery プラグインです。
 
-<img src="./src/header.png">
+<img src="./src/img/header.png">
 
 
-##デモ
+## デモ
 
 デモは、 jquery.background-fit.js と background css の比較です。
 
 [デモ](http://project.thingslabo.com/jquery.background-fit/examples/)
 
-##つかいかた
+## つかいかた
 
 1. jQuery 本体の設定
 2. jquery.background-fit.js の設定
@@ -19,7 +19,7 @@
 4. Background Fit を適用
 5. 動作確認
 
-###1. jQuery 本体の設定
+### 1. jQuery 本体の設定
 
 jQuery (1.11 以上または >= 2.x  以上) をページに読み込みます。
 
@@ -27,7 +27,7 @@ jquery.com から jQuery 本体をダウンロード。または CDN から配�
 
 設定方法は「[Download jQuery](http://jquery.com/download/)」から。
 
-###2. jquery.background-fit.js の設定
+### 2. jquery.background-fit.js の設定
 
 jquery.background-fit.js をページに読み込みます。
 
@@ -37,7 +37,7 @@ jquery.background-fit.min.js をダウンロードして、HTMLにスクリプ�
 <script src="http://DOMAIN/PATH/TO/jquery.background-fit.min.js"></script>
 ```
 
-###3. HTMLと背景画像、CSSを用意
+### 3. HTMLと背景画像、CSSを用意
 
 背景画像を表示するHTMLを用意します。id 属性または class 属性を設定すること。属性名はお好みで。
 
@@ -71,7 +71,7 @@ CSSで背景画像を設定します。
 </style>
 ```
 
-###4. Background Fit を適用
+### 4. Background Fit を適用
 
 Background Fit を適用する JavaScript を記述します。HTML に設定した id 属性または class 属性を セレクタに指定して Background Fit を適用します。
 
@@ -83,15 +83,15 @@ $(function() {
 </script>
 ```
 
-###5. 動作確認
+### 5. 動作確認
 
 表示を確認します。
 
 以上。
 
-##動作条件
+## 動作条件
 
-jQuery 1.11+ Or jQuery 2.x+ [http://jquery.com/download/](http://jquery.com/download/)
+jQuery 1.11+ Or jQuery 2.x+ Or jQuery 3.x [http://jquery.com/download/](http://jquery.com/download/)
 
 ## Contribution
 

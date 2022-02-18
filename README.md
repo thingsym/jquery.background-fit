@@ -1,17 +1,17 @@
-#jQuery Plugin Background Fit
+# jQuery Plugin Background Fit
 
 Background Fit is a jQuery plugin that appear in sizes that fit to the aspect ratio of the background image.
 
 
-<img src="./src/header.png">
+<img src="./src/img/header.png">
 
-##Demo
+## Demo
 
 Demo is Comparison of jquery.background-fit.js and the background css.
 
 [Demo](http://project.thingslabo.com/jquery.background-fit/examples/)
 
-##Usage
+## Usage
 
 1. Setting the jQuery
 2. Setting the jquery.background-fit.js
@@ -19,7 +19,7 @@ Demo is Comparison of jquery.background-fit.js and the background css.
 4. Run the script
 5. Operation checking
 
-###1. Setting the jQuery
+### 1. Setting the jQuery
 
 jQuery (>= 1.11 Or >= 2.x) loaded in your page. 
 
@@ -27,7 +27,7 @@ Download the jQuery from jquery.com. Or set the jQuery that is delivered from th
 
 [Download jQuery](http://jquery.com/download/)
 
-###2. Setting the jquery.background-fit.js
+### 2. Setting the jquery.background-fit.js
 
 
 jquery.background-fit.js loaded in your page. 
@@ -38,7 +38,7 @@ Download the jquery.background-fit.min.js. Set the script tag to HTML, like this
 <script src="http://DOMAIN/PATH/TO/jquery.background-fit.min.js"></script>
 ```
 
-###3. Prepare for HTML and background image, CSS
+### 3. Prepare for HTML and background image, CSS
 
 Provide the HTML to display the background image. By setting the class attribute or id attribute. Attribute name to your liking.
 
@@ -73,7 +73,7 @@ If set the width, it will display the display size has been adjusted.
 </style>
 ```
 
-###4. Run the script
+### 4. Run the script
 
 Write JavaScript to run the Background Fit. 
 Apply a Background Fit by specifying the selector to the class attribute or an id attribute set to HTML. Run the script like so:
@@ -86,17 +86,16 @@ $(function() {
 </script>
 ```
 
-###5. Operation checking
+### 5. Operation checking
 
 Checking the display.
 
 Have fun!
 
 
-##Required
+## Required
 
-jQuery 1.11+ Or jQuery 2.x+
- [http://jquery.com/download/](http://jquery.com/download/)
+jQuery 1.11+ Or jQuery 2.x+ Or jQuery 3.x [http://jquery.com/download/](http://jquery.com/download/)
 
 ## Contribution
 
