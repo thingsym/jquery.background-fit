@@ -9,7 +9,7 @@
 
 デモは、 jquery.background-fit.js と background css の比較です。
 
-[デモ](http://project.thingslabo.com/jquery.background-fit/examples/)
+[Github Pages](http://thingsym.github.io/jquery.background-fit/)
 
 ## つかいかた
 
@@ -21,7 +21,7 @@
 
 ### 1. jQuery 本体の設定
 
-jQuery (1.11 以上または >= 2.x  以上) をページに読み込みます。
+jQuery (1.11 以上または >= 3.x 以上) をページに読み込みます。
 
 jquery.com から jQuery 本体をダウンロード。または CDN から配信している jQuery 本体を設定します。
 
@@ -91,7 +91,7 @@ $(function() {
 
 ## 動作条件
 
-jQuery 1.11+ Or jQuery 2.x+ Or jQuery 3.x [http://jquery.com/download/](http://jquery.com/download/)
+jQuery 1.11+ Or jQuery 2.x Or jQuery 3.x [http://jquery.com/download/](http://jquery.com/download/)
 
 ## Contribution
 

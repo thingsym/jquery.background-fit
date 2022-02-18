@@ -9,7 +9,7 @@ Background Fit is a jQuery plugin that appear in sizes that fit to the aspect ra
 
 Demo is Comparison of jquery.background-fit.js and the background css.
 
-[Demo](http://project.thingslabo.com/jquery.background-fit/examples/)
+[Github Pages](http://thingsym.github.io/jquery.background-fit/)
 
 ## Usage
 
@@ -21,7 +21,7 @@ Demo is Comparison of jquery.background-fit.js and the background css.
 
 ### 1. Setting the jQuery
 
-jQuery (>= 1.11 Or >= 2.x) loaded in your page. 
+jQuery (>= 1.11 Or >= 3.x) loaded in your page. 
 
 Download the jQuery from jquery.com. Or set the jQuery that is delivered from the CDN.
 
@@ -95,7 +95,7 @@ Have fun!
 
 ## Required
 
-jQuery 1.11+ Or jQuery 2.x+ Or jQuery 3.x [http://jquery.com/download/](http://jquery.com/download/)
+jQuery 1.11+ Or jQuery 2.x Or jQuery 3.x [http://jquery.com/download/](http://jquery.com/download/)
 
 ## Contribution
 
