@@ -111,6 +111,16 @@ Small patches and bug reports can be submitted a issue tracker in Github. Forkin
 
 ## Changelog
 
+* Version 0.0.6 - 2022-02-18
+	* fix url for github pages
+	* add .editorconfig
+	* bump up jquery version to 3.6.0
+	* fix gulpfile
+	* update package.json
+	* add css file
+	* rename from examples to docs for github pages
+	* remove bower.js
+	* add LICENSE file
 * Version 0.0.5 - 2014-11-17
 	* add bower.js
 * Version 0.0.4 - 2014-07-29
