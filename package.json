@@ -40,9 +40,6 @@
   "scripts": {
     "default": "gulp --tasks",
     "gulp": "gulp",
-    "ncu": "ncu",
-    "test": "npm run lint",
-    "lint": "gulp lint",
-    "serve": "gulp serve"
+    "ncu": "ncu"
   }
 }
