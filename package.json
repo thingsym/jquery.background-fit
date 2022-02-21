@@ -34,7 +34,8 @@
     "gulp-watch": "~5.0.1",
     "jshint": "^2.13.4",
     "jshint-stylish": "^2.2.1",
-    "npm-check-updates": "^12.3.1"
+    "npm-check-updates": "^12.3.1",
+    "printf": "^0.6.1"
   },
   "scripts": {
     "default": "gulp --tasks",
